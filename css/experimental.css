@@ -1,0 +1,69 @@
+:root{
+	/*text-align: center;*/
+	background: black;
+	color: white;
+}
+
+.box p{
+	/*color: white;*/
+	color: red;
+}
+
+div > p{
+	background-color: grey;
+}
+
+div ~ p{
+	background-color: lightblue;
+}
+
+div + p{
+	background-color: lightgreen;
+}
+
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: white;
+	font-weight: 900;
+}
+
+a:hover{
+	font-size: 20px;
+	color: lightcoral;
+}
+
+.experiment_text:first-child{
+	background: none;
+	color:yellow
+}
+
+ul li:first-child{
+	color: lightcoral;
+	font-weight: bold;
+}
+
+ul li:last-child{
+	color:greenyellow;
+}
+
+span,
+div em {
+	padding: 5px;
+	border: 1px solid green;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+.first span:nth-child(2n),
+.second span:nth-child(2n + 1)
+{
+	background-color: lime;
+}
+
+h1::before, h1::after{
+	text-align: center;
+	content:url("https://ixbt.online/live/images/original/16/77/13/2023/08/18/72464ba8f0.jpg");
+}
+
