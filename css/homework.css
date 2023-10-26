@@ -1,0 +1,24 @@
+.container *{
+	color: white;
+	background: none;
+}
+
+/*
+Работает на Mozilla, но не работает на Yandex.
+Для Yandex нужен костыль.
+
+Пробовал через .container p+
+*/
+
+.container h1{
+	color: blue;
+}
+
+.container h2{
+	background: blue;
+	color:white
+}
+
+.container p > span{
+	font-size: 200%;
+}
